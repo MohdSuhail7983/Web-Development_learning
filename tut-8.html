@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms tutorial</title>
+</head>
+
+<body>
+    <h2>This is HTML Forms tutorial</h2>
+    <form action="backend.php">
+    <!-- by using the div tag the content in the div tag is will be shown alone in that line the 
+    next content will be written in the next new line  -->
+    <!--Note-- the div tag take complete width of a page so the next content will be written in the next line -->
+    <div>
+        <label for="name"></label>
+    </div>
+    <div>
+        Name:<input type="text" name="Myname" id=""name>
+    </div>
+    <br>
+    <div>
+        Role:<input type="text" name="Myrole">
+    </div>
+    <br>
+    <div>
+        Country:<input type="text" name="Mycountry">
+    </div>
+    <br>
+    <div>
+        Email :<input type="email" name="MyEmail">
+    </div>
+    <br>
+    <div>
+        Date: <input type="date" name="MyDate">
+    </div>
+    <br>
+    <div>
+        <!-- Remember in bonus the input is a number -->
+        Bonus: <input type="number" name="MyBonus">
+    </div>
+    <br>
+    <!-- checkbox tag -->
+    <div>
+        Are you eligible: <input type="checkbox" name="MyEligibility" checked>
+        <!-- we add checked in the end above so it will be checked by default -->
+    </div>
+    <br>
+    <!-- in the following div we are using radio tag for asking user to choose their gender -->
+    <div>
+        Gender: Male<input type="radio" name="MyGender">
+        Female<input type="radio" name="MyGender">
+        other<input type="radio" name="MyGender">
+    </div>
+    <br>
+    <!-- In the following div we are defining the box so that the users can write about them -->
+    <div>
+       Write about yourself:<br><textarea name="myText" cols="30" rows="10"></textarea>
+    </div>
+    <br>
+    <!-- below used label tag and select tag  -->
+    <label for="car">Car</label>
+    <select name="mycar" id="car">
+        <!-- we will put the options inside the option tag -->
+        <option value="fortuner">fortuner</option>
+        <option value="safari" selected>safari</option>
+        <option value="Honda city">Honda city</option>
+        <option value="verna">verna</option>
+    </select>
+    <!-- in the following div we define the reset and submit butten in our form -->
+    <br>
+    <br>
+    <div>
+        <input type="submit" value="Submit Now">
+        <input type="reset" value="Reset Now">
+    </div>
+</form>
+    
+</body>
+
+</html>
