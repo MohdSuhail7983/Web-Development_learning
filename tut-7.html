@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tables and list</title>
+</head>
+
+<body>
+    <!-- ul-means unordered list and have three option disc,square,hollow circle -->
+    <ul type="square">
+        <li>This is the first item of my unordered list </li>
+        <li>This is the second item of my unordered list </li>
+        <li>This is the third item of my unordered list </li>
+        <li>This is the fourth item of my unordered list </li>
+        <!-- we can create a list inside of a list as well like below -->
+
+        <ul type="disc">
+            <li>another list</li>
+            <li>another list</li>
+            <li>another list</li>
+        </ul>
+
+        <!-- inside list end here -->
+
+    </ul>
+    <!-- order list starts here and in this we have five option like a,A,1,I,i we can choose any one of them -->
+    <ol type="a">
+        <li>this is the first item of ordered list</li>
+        <li>this is the second item of ordered list</li>
+        <li>this is the third item of ordered list</li>
+        <li>this is the fourth item of ordered list</li>
+        <ol type="i">
+            <li>this is first list</li>
+            <li>this is second list</li>
+            <li>this is third list</li>
+        </ol>
+    </ol>
+    <!-- Now we are going to start the tables -->
+    <h3>Html Table</h3>
+    <!--table tag -->
+    <table>
+        <!-- Note that In table tag we will have two tags "table head" and "table body" -->
+        <thead>
+            <!-- Note in table head we will have two tag i.e "table row" and "table head" -->
+            <tr>
+                <th>name</th>
+                <th>roll number</th>
+                <th>section</th>
+            </tr>
+
+        </thead> <!-- table head finished here -->
+        <!-- Now table body tag i.e "<tbody>" starts here -->
+        <tbody>
+            <tr>
+                <!-- <td> i.e table data tag can contain various types of content, such as text,
+                     images, links, forms, or other HTML elements -->
+                <td>Mohd Suhail</td>
+                <td>29837465</td>
+                <td>section b</td>
+            </tr>
+            <tr>
+                <td>this is suhail</td>
+                <td>21234253</td>
+                <td>section f</td>
+            </tr>
+            <tr>
+                <td>Mohd sohail</td>
+                <td>23465457</td>
+                <td>section a</td>
+            </tr>
+    <!-- we can add as much as rows we want by adding <tr></tr> tag  -->
+
+        </tbody>
+    </table>
+</body>
+
+</html>
