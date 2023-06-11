@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>id's and class in html</title>
+</head>
+<body>
+    <h3>ids and classes tutorial</h3>
+    <!-- The value of the id attribute must be unique within the entire HTML document. -->
+    <!-- Class names can be shared among multiple elements, allowing for grouping and applying
+         styles or behaviors to multiple elements at once. -->
+    <div id="mainbox" class="redBG blackborder"> 
+        this is mainbox
+     </div>
+     <span class="redBG"></span>
+     <!-- let us assume that we have 100 elements on our website and we want to add some properties to them than what we 
+     will do is that we will make a class and write our properties inside that class  -->
+
+     <!-- Emmet -->
+     <!-- Note- . is for class and # will be for id's -->
+     <!-- span.redBg  &  span#mainbox -->
+
+     <span class="redBG"></span>
+     <span id="mainspan"></span>
+     <span id="mainbox" class="redBg"></span>
+     <!-- span#mainbox.redBG -->
+     <!-- Emmet takes div as default -->
+     <!-- ex- use .blackbackground and press enter it will give div tag automatically  -->
+     <div class="blackbackground"></div>
+     <!-- Creating multiple elements using Emmets -->
+     <!-- span.myclass1.myclass2.myclass3*4 press tab for print four similer elements using emmet -->
+     <span class="myclass1 myclass2 myclass3">First</span><br>
+     <span class="myclass1 myclass2 myclass3">Second</span><br>
+     <span class="myclass1 myclass2 myclass3">Third</span><br>
+     <span class="myclass1 myclass2 myclass3">Fourth</span><br>
+</body>
+</html>
