@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS SELECTOR</title>
+    <!-- css selector are used to find the elements whose property will be set,we can target single of multiple elements of the html 
+    and can add styles and property as per our requirement -->
+    <style>
+        /* we just want to give red color to that paragraph whose id is redElement after doing this redElement paragraph will be
+          shown red to us*/
+          /* this is the example of css id selector as we know we will use '#' in the case of id and '.' in case of class */
+
+          /*just below is element selector */
+          p{
+            border: 2px solid red;
+          }
+        
+          #redElement{
+            color: red;
+          }
+        /* below is the element selector */
+           p{
+            color: green;
+          } 
+          .secondPara{
+            color: rgb(199, 199, 41);
+          }
+          /* below is the example of combined grouping selector */
+          footer,span{
+            background-color: blueviolet;
+            border: 3px solid lightgreen;
+          }
+          /* id selector */
+          #redElement{
+            background-color: blue;
+          }
+          /* class selector */
+          .secondPara{
+            background-color: green;
+          }
+          
+    </style>
+</head>
+<body>
+    <h3>CSS Selector</h3>
+    <p>This is a simple tutorial to teach you about CSS Selector</p>
+    <p id="redElement">This is a another simple tutorial to teach you about CSS Selector</p>
+    <div> 
+        <p id="suhail" class="secondPara">This is a yet another simple tutorial inside div to teach you about CSS Selector</p>
+    </div>
+    <!-- In summary, use the <div> tag to group and style larger sections of content or create layout structures, while the <span> 
+        tag isused to style or mark specific portions of inline text or elements. -->
+        <p>hey this is mohd suhail currently working on web development</p>
+        <span>this is your span</span>
+        <br>
+        <footer>This is your footer</footer>
+</body>
+</html>
