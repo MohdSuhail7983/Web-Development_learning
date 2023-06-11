@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Height,Width,Border and Background</title>
+    <style>
+        #Firstpara {
+            background-color: red;
+            height: 100px;
+            width: 500px;
+            /* we can write border-width,color and style in one statement,See below */
+            border: 5px blue solid;
+            /* border radius will make the corner slightly round */
+            border-radius: 10px;
+        }
+
+        #Secondpara {
+            /* defining each property one by one which is not a good practice */
+            background-color: blueviolet;
+            height: 100px;
+            width: 500px;
+            border: 5px rgb(61, 151, 235) solid;
+            border-radius: 12px;
+        }
+
+        #Thirdpara {
+            background-color: darksalmon;
+            height: 100px;
+            width: 500px;
+            border-top: 5px solid rgb(151, 22, 22);
+            border-bottom: 5px solid rgb(227, 26, 127);
+            border-left: 5px solid rgb(153, 165, 86);
+            border-right: 5px solid rgb(12, 136, 219);
+            border-radius: 10px;
+        }
+
+        #fourthpara {
+            background-color: pink;
+            height: 100px;
+            width: 500px;
+            border-top: 5px solid rgb(4, 10, 59);
+            border-bottom: 5px solid rgb(226, 126, 226);
+            border-left: 5px solid rgb(144, 168, 11);
+            border-right: 5px solid rgb(240, 83, 11);
+            /* shows how to put radius one by one at the corner of the content border */
+            border-top-right-radius: 15px;
+            border-bottom-left-radius: 15px;
+        }
+
+        #fifthpara {
+            background-color: rgb(38, 171, 211);
+            height: 500px;
+            width: 800px;
+            border: 5px solid green;
+            background-image: url('https://cdn.matthewjamestaylor.com/titles/small-house-watercolor-painting.jpg');
+            border-radius: 10px;
+            /* background-repeat: for stopping the image repeatation */
+            background-repeat: no-repeat;
+            /* we can adjust the image position either by the direct name or by the direct value  */
+            /* background-position: top left; */
+            background-position: top center;
+            /*background-position:center right; 
+            background-position:center center; 
+            background-position:center left; */
+        }
+    </style>
+</head>
+
+<body>
+    <h3>This is a heading</h3>
+    <p id="Firstpara">Hey,This is Mohd Suhail currenltly Working on CSS</p>
+    <h3>This is a second heading</h3>
+    <p id="Secondpara">Hey,This is Mohd Suhail writing the second para</p>
+    <h3>This is a third heading</h3>
+    <p id="Thirdpara">This is my third paragraph,we are going to provide the different color all the four side
+        of this para by using the property border-top,left,right,bottom in one line</p>
+    <h3>This is a fourth heading</h3>
+    <p id="fourthpara">This is a fourth para which shows how to put radius one by one at the corner of the each border
+    </p>
+    <h3>This is the fifth paragraph</h3>
+    <p id="fifthpara">this is the fifth paragraph for putting image in the background</p>
+</body>
+
+</html>
