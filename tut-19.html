@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS BOX MODEL,MARGIN, AND PADDING </title>
+    <style>
+        body{
+            background-color: aqua;
+        }
+        .container{
+            background-color: #f29d39;
+            border: 5px solid navy;
+            /*Note-: margin controls the spacing around an element, creating space between the element and other elements.we can provide margin from top,bottom,left and right as well.[See below].
+            Note-:padding controls the spacing within an element, creating space between the element's content and its border,we can provide the padding froom left,right,top and bottom as well,[see below].
+            Note-:border radius is used for giving curve at the corner of the border*/
+            
+            /* padding-top: 80px;
+            padding-right: 70px;
+            padding-bottom: 60px;            
+            padding-left: 170px;             */
+            /* padding: 72px;  */
+           
+            /* we can provide padding/margin as like top,right,bottom and left */
+            
+            /*top right bottem and left */
+            padding: 20px  50px;  
+
+
+           /*top right bottem and left*/
+            margin: 3px 4px 5px 6px;  
+            border-radius: 10px;
+            width: 500px;
+            height: 150px;
+           
+            
+            }
+    </style>
+</head>
+<body>
+     <div class="container">
+        <h3>This is my heading</h3>
+        <p id="first">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia commodi, consequuntur laboriosam accusantium repellat nulla a ratione! Praesentium assumenda cupiditate eos ut consectetur?</p>
+     </div>
+     <div class="container">
+        <h3>This is my heading</h3>
+        <p id="second">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia commodi, consequuntur laboriosam accusantium repellat nulla a ratione! Praesentium assumenda cupiditate eos ut consectetur?</p>
+     </div>
+     <div class="container">
+        <h3>This is my heading</h3>
+        <p id="third">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia commodi, consequuntur laboriosam accusantium repellat nulla a ratione! Praesentium assumenda cupiditate eos ut consectetur?</p>
+</body>
+</html>
